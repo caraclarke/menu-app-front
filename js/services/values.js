@@ -1,4 +1,4 @@
 angular.module("menuApp").value('appSettings', {
-   title: "Resteraunt Menu Application",
+   title: "MENU",
    version: "1.0"
 });

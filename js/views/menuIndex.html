@@ -1,19 +1,19 @@
 <h1>{{appSettings.title}}</h1>
 <!-- title, content, image, date  -->
-<section id="cd-menu-item" class="cd-container">
+<section id="menu" class="container">
 
-  <!-- begin item block -->
-  <div class="cd-menu-item-block" ng-repeat="item in mIndexCtrl.items | filter: menuIndexFilter | orderBy:mIndexCtrl.sortBy:mIndexCtrl.reverse">
-    <div class="cd-menu-img cd-picture">
+  <!-- begin menu block -->
+  <div class="menu-block" ng-repeat="menu in mIndexCtrl.menus | filter: menuIndexFilter | orderBy:mIndexCtrl.sortBy:mIndexCtrl.reverse">
+    <div class="menu-img picture">
       <img src="images/" alt="Food">
     </div> <!-- menu item picture -->
 
-    <div class="cd-menu-content">
-      <h2>{{event.course}}</h2>
-      <p>{{event.title}}</p>
-      <p>{{event.description}}</p>
+    <div class="menu-content">
+      <h2>{{menu.course}}</h2>
+      <p>{{menu.title}}</p>
+      <p>{{menu.description}}</p>
     </div> <!-- end content block -->
   </div>
-  <!-- end item block -->
+  <!-- end menu block -->
 
-</section> <!-- cd-menu-item -->
+</section> <!-- menu-item -->
