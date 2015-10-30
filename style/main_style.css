@@ -1,5 +1,6 @@
 body {
   background-color: #212F3C;
+  color: #fff;
 }
 
 p {
@@ -19,4 +20,25 @@ p {
 .header h1 {
   padding: 15px;
   border-bottom: 1px solid #fff;
+}
+
+.menu-block {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 5px;
+  background-color: green;
+}
+
+.menu-img {
+  border: 1px dashed red;
+  padding: 60px 25px;
+  float: left;
+  width: 30px;
+}
+
+.menu-content {
+  margin-left: 45px;
+  margin-bottom: 50px;
+  padding-left: 50px;
 }
