@@ -1,0 +1,22 @@
+body {
+  background-color: #212F3C;
+}
+
+p {
+  font-family: 'Cardo', Georgia, Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  font-family: 'Allan', Helvetica, Arial, sans-serif;
+  font-size: 70px;
+  line-height: 75px;
+}
+
+.header h1 {
+  padding: 15px;
+  border-bottom: 1px solid #fff;
+}
