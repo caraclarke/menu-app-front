@@ -14,6 +14,7 @@
       menuFactory.getMenus()
       .then(function(result) {
         vm.menus = result.data;
+        console.log(result.data);
       }, function(data, status, headers, config) {
         console.error(status);
       });
